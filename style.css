@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: spartan;
+}
+:root {
+    --color-text: #1a1a1a;
+    --color: white;
+    --background-color1: #8ecae6;
+    --background-color2: #a2d2ff;
+    --color2: #006d77;
+}
+body {
+    background-image:linear-gradient( #bbd0ff, #c8b6ff);
+}
+a{
+    padding-right: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    box-shadow: 0 0 0.6rem black;
+}
+.css-text{
+    color: var(--color2);
+}
+.css-color{
+    display: flex;
+}
+.css-color p{
+    padding-right: 2rem;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 94.7vh;
+}
+button {
+    display: flex;
+    width: fit-content;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3));
+    backdrop-filter: blur(5px);
+    padding: 0.7rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container div {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.container h2 {
+    color: var(--color);
+    font-size: 2rem;
+}

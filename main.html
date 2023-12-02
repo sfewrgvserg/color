@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Flipper</title>
+</head>
+<body>
+
+    <nav>
+        <div class="css-text">
+            <p>Color Flipper</p>
+        </div>
+        <div class="css-color js-vary">
+            <p class="js-p1" onclick="setColor('simple')">Simple</p>
+            <p class="js-p2" onclick="setColor('hex')">Hex</p>
+        </div>
+    </nav>
+    <div class="container">
+        <div>
+            <h1>Background Color : </h1>
+            <h2 class="js-simple-hex-color"> #8ecae6</h2>
+        </div>
+        <button onclick="randomColor()">Click Me</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
